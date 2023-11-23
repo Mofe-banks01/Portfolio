@@ -1,0 +1,72 @@
+/****************************/
+/* BELOW 1264px */
+/****************************/
+
+@media (max-width: 79em) {
+}
+
+/****************************/
+/* BELOW 990px */
+/****************************/
+
+@media (max-width: 62em) {
+  .hero-about-me-section-container-div {
+    flex-direction: column-reverse;
+    gap: 4rem;
+    padding: 1rem;
+    text-align: center;
+    /* padding-left: 9rem; */
+  }
+  .hero-about-me-div-heading-content-container {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+  .hero-about-me-div-button-cont {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    /* padding-left: 9rem; */
+  }
+
+  .hero-services-grid-box-container {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .hero-about-me-intro-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .hero-about-me-image {
+    width: 15rem;
+    height: 15rem;
+  }
+  .text-logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+  .carousel-ExampleFade-container {
+    padding: 2rem;
+  }
+}
+
+/****************************/
+/* BELOW 800px */
+/****************************/
+
+@media (max-width: 50em) {
+  /* write your block of code here */
+}
+
+/****************************/
+/* BELOW 496px */
+/****************************/
+
+@media (max-width: 31em) {
+
+}
