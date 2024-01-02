@@ -343,7 +343,7 @@ body {
   padding-left: 4rem;
   padding-right: 4rem;
   flex-direction: row;
-  gap: 35rem;
+  gap: 42rem;
 }
 .text-logo {
   font-family: "Ubuntu-Medium-Regular";
@@ -355,4 +355,12 @@ body {
 .social {
   font-size: 3rem;
   margin: 10px;
+
+}
+.social:hover{
+  -webkit-transition: all 0.757s;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  position: relative;
+  cursor: pointer;
 }
